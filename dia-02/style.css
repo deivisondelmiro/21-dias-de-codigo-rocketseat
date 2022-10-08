@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #6e00e3d8;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    width: 26.5rem;
+    display: flex;
+    background-color: #1d003df5;
+    font-family: 'Silkscreen', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 3px 3px 0px #7b00ff;
+    margin: auto;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.animacao {
+    color: #ffffff;
+    transition: transform .25s;
+}
+
+.animacao:before {
+    content: " World!";
+    animation: topToBottom 5s infinite 0s;
+}
+
+.animacao:hover {
+    transform: scale(1.1);
+    color: #7b00ff;
+    text-shadow: 2px 2px 0px white;
+}
+
+@keyframes topToBottom {
+    0% {
+        content: "World!";
+    }
+    25% {
+        content: "Dev!";
+    }
+    50% {
+        content: "Web!"
+    }
+    100% {
+        content: "World!"
+    }
+}
