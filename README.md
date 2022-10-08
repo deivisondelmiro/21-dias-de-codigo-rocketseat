@@ -10,7 +10,7 @@ Desafios de cada semana:
 
 Dia 01 - Criar um repositório para listagem dos projetos - ([Clique aqui](https://github.com/deivisondelmiro/21-dias-de-codigo-rocketseat))
 
-Dia 02 - Fazer um Hello Word customizado (com fontes, cores e imagens) - ([Em breve...](https://github.com/deivisondelmiro/21-dias-de-codigo-rocketseat/dia-02/index.html))
+Dia 02 - Fazer um Hello Word customizado (com fontes, cores e imagens) - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-02/index.html))
 
 Dia 03 - Criar um botão animado - ([Em breve...]())
 
