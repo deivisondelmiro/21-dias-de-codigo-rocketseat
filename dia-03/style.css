@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(241, 241, 241);
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    color: white;
+    background: rgb(61, 61, 61);
+    padding: 8px 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: transform .5s, border-radius .25s;
+}
+
+button:hover {
+    background: rgb(46, 46, 46);
+    transform: scale(1.1);
+}
+
+button.buttonSend {
+    border-radius: 50%;
+    padding: 8px;
+}
+
+button.buttonEffectMouse:hover {
+    transform: rotate(360deg);
+}
