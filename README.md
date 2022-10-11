@@ -14,7 +14,7 @@ Dia 02 - Fazer um Hello Word customizado (com fontes, cores e imagens) - ([Cliqu
 
 Dia 03 - Criar um botão animado - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-03/index.html))
 
-Dia 04 - Criar uma calculadora - ([Em breve...]())
+Dia 04 - Criar uma calculadora - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-04/index.html))
 
 Dia 05 - Desenvolver uma página com erro 404 - ([Em breve...]())
 

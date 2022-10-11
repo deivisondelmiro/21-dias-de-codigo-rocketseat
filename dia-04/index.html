@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <main>
+        <input type="text" value="Calculadora" id="calculadoraText"><br>
+        <input type="text" name="mostraValor" id="display" disabled>
+        <input type="button" class="btnNum" value="C" onclick="limpaTela()"><br><br>
+        <input type="button" class="btnNum" value="1" id="numero1" onclick="adicionarParametro(1)">
+        <input type="button" class="btnNum" value="2" id="numero2" onclick="adicionarParametro(2)">
+        <input type="button" class="btnNum" value="3" id="numero3" onclick="adicionarParametro(3)">
+        <input type="button" class="btnNum" value="*" id="mul" onclick="adicionarParametro('*')"><br>
+        <input type="button" class="btnNum" value="4" id="numero4" onclick="adicionarParametro(4)">
+        <input type="button" class="btnNum" value="5" id="numero5" onclick="adicionarParametro(5)">
+        <input type="button" class="btnNum" value="6" id="numero6" onclick="adicionarParametro(6)">
+        <input type="button" class="btnNum" value="/" id="div" onclick="adicionarParametro('/')"><br>
+        <input type="button" class="btnNum" value="7" id="numero7" onclick="adicionarParametro(7)">
+        <input type="button" class="btnNum" value="8" id="numero8" onclick="adicionarParametro(8)">
+        <input type="button" class="btnNum" value="9" id="numero9" onclick="adicionarParametro(9)">
+        <input type="button" class="btnNum" value="+" id="add" onclick="adicionarParametro('+')"><br>
+        <input type="button" class="btnNum" value="0" id="numero0" onclick="adicionarParametro(0)">
+        <input type="button" class="btnNum" value="," id="adi" onclick="adicionarParametro('.')">
+        <input type="button" class="btnNum" value="=" id="calculo" onclick="calcular()">
+        <input type="button" class="btnNum" value="-" id="sub" onclick="adicionarParametro('-')">
+    </main>
+</body>
+</html>
