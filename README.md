@@ -16,7 +16,7 @@ Dia 03 - Criar um botão animado - ([Clique aqui](https://deivisondelmiro.github
 
 Dia 04 - Criar uma calculadora - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-04/index.html))
 
-Dia 05 - Desenvolver uma página com erro 404 - ([Em breve...]())
+Dia 05 - Desenvolver uma página com erro 404 - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-05/index.html))
 
 Dia 06 - Criar um card com efeito glassmorphism - ([Em breve...]())
 

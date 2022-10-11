@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Body */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url('assets/error-404.png');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-color:rgb(43, 1, 48);
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    background-color: purple;
+}
+
+header nav a#logo {
+    color: white;
+    letter-spacing: 2px;
+    transition: color .2s;
+}
+
+header nav a#logo:hover {
+    color: rgb(43, 1, 48);
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    letter-spacing: 2px;
+    transition: color .2s;
+}
+
+header nav ul li a:hover {
+    color: rgb(43, 1, 48);
+}
+
+/* Main */
+
+main {
+    width: 100vw;
+    position: absolute;
+    bottom: 155px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(220, 179, 233);
+    padding: 0 5px;
+}
+
+/* Footer */
+
+footer {
+    width: 100vw;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.9rem;
+    text-align: center;
+    color: rgb(220, 179, 233);
+}
+
+footer p {
+    letter-spacing: 2px;
+    word-spacing: 1px
+}
+
+footer p a {
+    color: rgb(220, 179, 233);
+    letter-spacing: 2px;
+    transition: color .2s;
+}
+
+footer p a:hover {
+    color: rgb(115, 69, 129);
+}
