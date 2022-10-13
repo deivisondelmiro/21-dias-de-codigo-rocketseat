@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(248, 91, 0, 0.123);
+}
+
+main {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#quadrado-background {
+    width: 155px;
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(253, 183, 52, 0.493), rgba(110, 87, 11, 0.37));
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.315);
+}
+
+section#quadrado-background img {
+    width: 120px;
+    height: 120px;
+}
+
+div#glass {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    border: 1px solid rgba(44, 44, 44, 0.205);
+    box-shadow: 2px 1px 5px rgba(43, 43, 43, 0.678);
+    outline: 1px ridge rgba(43, 43, 43, 0.116);
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+div#glass:hover {
+    transform: translate(80px);
+}
