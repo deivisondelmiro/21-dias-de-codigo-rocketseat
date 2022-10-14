@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+  --light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/rocket.svg') no-repeat;
+  background-position-x: 699px;
+  background-position-y: 150px;
+}
+
+div#imgTop {
+  width: 100vw;
+}
+
+main {
+  width: 505px;
+  height: 316px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 40px 0 0 7.68rem;
+}
+
+div#principal header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: var(--purple);
+}
+
+div#timer {
+  display: flex;
+  justify-content: space-around;
+  margin-right: -9px;
+  margin-left: -14px;
+}
+
+div#principal section h2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--light-grey)
+}
+
+div#principal section span {
+  font-size: 72px;
+  font-weight: 400;
+}
+
+div#tempo {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+section#increver-se {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section#increver-se p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: var(--text-color);
+  margin-bottom: 31px;
+}
+
+section#increver-se input {
+  width: 160px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background: var(--purple);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+div#imgBottom {
+  width: 100vw;
+}
