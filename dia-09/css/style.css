@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(17, 14, 14);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+button#buttonClick {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+button#buttonClick:hover {
+  background: rgb(90, 90, 90);
+}
+
+div#boxLoadOutside {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  border: 1px solid red;;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px white;
+}
+
+div.animation {
+  width: 243px;
+  height: 33px;
+  margin: 1px;
+  padding: 2px;
+  background: white;
+  box-shadow: 1px 1px 2px white;
+  border-radius: 2px;
+  animation: loading 9s alternate;
+}
+
+@keyframes loading {
+  from {
+    width: 0%;
+  }
+}
