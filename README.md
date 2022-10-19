@@ -22,7 +22,7 @@ Dia 06 - Criar um card com efeito glassmorphism - ([Clique aqui](https://deiviso
 
 Dia 07 - Desenvolver um contador - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-07/index.html))
 
-Dia 08 - Desenvolva um toggle que altera para tema claro/escuro - ([Em breve...]())
+Dia 08 - Desenvolva um toggle que altera para tema claro/escuro - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-08/index.html))
 
 Dia 09 - Criar uma animação de loading - ([Em breve...]())
 

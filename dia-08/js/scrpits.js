@@ -1,9 +1,13 @@
-const body = document.getElementById('body')
+const body = document.getElementById('corBody')
 
-const buttonCircule = document.getElementById('buttoCircule')
+const circle = document.getElementById('circle')
 
-function mudarCor() {
-    body.style.background = 'gray'
+const corBodyMudada = body.classList.contains('active')
+
+function mudarBody() {
+    body.classList.toggle('active')
+    circle.classList.toggle('circleActive')
+
 }
 
-buttonCircle.addEventListener('click', mudarCor)
+circle.addEventListener('click', mudarBody)
