@@ -26,7 +26,7 @@ Dia 08 - Desenvolva um toggle que altera para tema claro/escuro - ([Clique aqui]
 
 Dia 09 - Criar uma animação de loading - Desenvolva um toggle que altera para tema claro/escuro - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-09/index.html))
 
-Dia 10 - Utilizar a lib Particle.js do JavaScript - ([Em breve...]())
+Dia 10 - Utilizar a lib Particle.js do JavaScript - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-10/index.html))
 
 Dia 11 - Criar um formulário de login - ([Em breve...]())
 
