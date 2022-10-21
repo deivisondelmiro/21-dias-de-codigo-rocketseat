@@ -96,7 +96,7 @@ div#lembrar-recuperar-acesso #lembrar-acesso {
 }
 
 div#lembrar-recuperar-acesso #lembrar-acesso-button {
-    margin-right: 10px;
+    margin-right: 15px;
     transition: color .3s;
     color: rgb(240, 239, 239);
 }
@@ -193,10 +193,5 @@ section#se-cadastre p a:hover {
     body {
     background-size: auto;
     background-position-x: -513px;
-    }
-
-    div#container-form {
-        /* background: transparent; */
-        margin: 0 auto;
     }
 }
