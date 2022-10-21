@@ -185,5 +185,18 @@ section#se-cadastre p a:hover {
 
     div#container-login {
         /* background: transparent; */
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+    background-size: auto;
+    background-position-x: -513px;
+    }
+
+    div#container-form {
+        margin: auto;
+        /* background: transparent; */
     }
 }
