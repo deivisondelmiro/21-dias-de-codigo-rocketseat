@@ -196,7 +196,7 @@ section#se-cadastre p a:hover {
     }
 
     div#container-form {
-        margin: auto;
+        margin: auto 50px;
         /* background: transparent; */
     }
 }
