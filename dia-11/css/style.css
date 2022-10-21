@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background: no-repeat top left url('../assets/background.jpg');
+    background-size: cover;
+    background-position-x: -349px;
+    background-position-y: -100px;
+}
+
+div#container-login {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to bottom, #40394e, #536175);
+}
+
+div#container-form {
+    width: 500px;
+    height: 400px;
+    margin: 70px;
+    background: #6f829c;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 1px 1px 25px #40394e85;
+}
+
+div#container-form form fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0px;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    color: rgb(245, 243, 243);
+    letter-spacing: 3px;
+    margin: 20px 20px 5px 20px;
+    cursor: default;
+}
+
+div#container-form form fieldset svg {
+    margin-right: 5px;
+}
+
+div#container-form form label.label-title {
+
+    font-weight: bold;
+    margin-right: 220px;
+    color: rgb(245, 243, 243);
+    letter-spacing: 3px;
+
+}
+
+div#container-form form input.input-email-password {
+    font-size: 16px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px 0 15px 0;
+}
+
+div#lembrar-recuperar-acesso {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(240, 239, 239);
+    transition: color .3s;
+}
+
+div#lembrar-recuperar-acesso #lembrar-acesso {
+    margin-right: 5px;
+    background: #6f829c;
+}
+
+
+.lembrar-acesso-class {
+    cursor: pointer;
+}
+
+div#lembrar-recuperar-acesso #lembrar-acesso-button {
+    margin-right: 50px;
+    transition: color .3s;
+    color: rgb(240, 239, 239);
+}
+
+div#lembrar-recuperar-acesso #lembrar-acesso-button:hover {
+    color: white;
+}
+
+#recuperar-acesso:hover {
+    color: rgb(255, 255, 255);
+}
+
+div#container-form input#buttonEntrar {
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    margin-top: 15px;
+    border: none;
+    padding: 8px 25px;
+    background: #322c3d;
+    color: white;
+    font-weight: bold;
+    transition: color .3s;
+    cursor: pointer;
+}
+
+div#container-form input#buttonEntrar:hover {
+    background: #221e29;
+}
+
+#login-por-redes {
+    color: rgb(231, 230, 230);
+
+
+    font-weight: bold;
+    display: flex;
+    margin: 10px 0 15px 30px;
+    gap: 10px;
+    justify-content: center;
+}
+
+#login-por-redes a {
+    color: #413A4F;
+    transition: color .3s;
+}
+
+#login-por-redes a:hover {
+    color: #221e29;
+}
+
+section#se-cadastre {
+    margin-top: 5px;
+    color: rgb(231, 230, 230);
+    font-size: 14px;
+}
+
+section#se-cadastre p a {
+    color: #413A4F;
+    transition: color .3s;
+}
+
+section#se-cadastre p a:hover {
+    color: #221e29;
+}
+/* input#email:invalid {
+    color: red;
+} */
+
+/* @media (max-width: 1512px) { */
+    /* body {
+
+        background-size: contain;
+        background-position-x: 250px;
+    }
+
+    div#container-login {
+        /* background: transparent; */
+    /* } */
+/* } */
+
+@media (max-width: 1200px) {
+    body {
+    background-size: auto;
+    background-position-x: -513px;
+    }
+
+    div#container-login {
+        /* background: transparent; */
+    }
+}
