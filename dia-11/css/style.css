@@ -178,6 +178,8 @@ div#container-login section#se-cadastre p a:hover {
     }
 
     div#container-form {
+        position: absolute;
+        left: -264px;
         margin: 50px;
     }
 }
