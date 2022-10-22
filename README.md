@@ -30,7 +30,7 @@ Dia 10 - Utilizar a lib Particle.js do JavaScript - ([Clique aqui](https://deivi
 
 Dia 11 - Criar um formulário de login - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-11/index.html))
 
-Dia 12 - Desenvolver uma galeria de imagens - ([Em breve...]())
+Dia 12 - Desenvolver uma galeria de imagens - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-12/index.html))
 
 Dia 13 - Desenvolver um Menu responsivo - ([Em breve...]())
 
