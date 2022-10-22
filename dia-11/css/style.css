@@ -17,7 +17,7 @@ body {
     background: no-repeat top left url('../assets/background.jpg');
     background-size: auto;
     background-position-x: -349px;
-    background-position-y: -100px;
+    background-color: #536175;
 }
 
 div#container-login {
