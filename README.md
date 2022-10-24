@@ -32,7 +32,7 @@ Dia 11 - Criar um formulário de login - ([Clique aqui](https://deivisondelmiro.
 
 Dia 12 - Desenvolver uma galeria de imagens - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-12/index.html))
 
-Dia 13 - Desenvolver um Menu responsivo - ([Em breve...]())
+Dia 13 - Desenvolver um Menu responsivo - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-13/index.html))
 
 Dia 14 - Criar um formulário de quizzes - ([Em breve...]())
 
