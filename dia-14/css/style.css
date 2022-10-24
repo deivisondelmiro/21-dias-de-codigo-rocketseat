@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(218, 218, 218);
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#container form {
+    width: 290px;
+    height: 280px;
+    border-radius: 8px;
+    background: #525367ea;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+
+form fieldset {
+    border: none;
+}
+
+form fieldset legend {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(228, 228, 228);
+    margin-bottom: 15px;
+    padding: 15px 0;
+    background: rgb(44, 44, 44);
+    border-radius: 8px 8px 0 0;
+}
+
+div.inputs {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 8px;
+    padding-left: 5px;
+    color: rgb(235, 235, 235);
+    letter-spacing: 2px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: all .2s;
+}
+
+div.inputs:hover {
+    color: black;
+    background: #EAEAEA;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+div.inputs input.icon-input {
+    display: none;
+}
+
+div.inputs input.icon-input+label:before {
+    content: '⚫';
+    padding-right: 5px;
+}
+
+div.inputs input.icon-input:checked+label:before {
+    content: '⚪';
+}
+
+div.inputs:checked+label:before {
+    background: red;
+}
+
+div.inputs label {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+div#message-display {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
