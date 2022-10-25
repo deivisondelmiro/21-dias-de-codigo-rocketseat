@@ -36,7 +36,7 @@ Dia 13 - Desenvolver um Menu responsivo - ([Clique aqui](https://deivisondelmiro
 
 Dia 14 - Criar um formulário de quizzes - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-14/index.html))
 
-Dia 15 - Desenvolver uma vitrine de produtos de um e-commerce - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-15/index.html))
+Dia 15 - Desenvolver uma vitrine de produtos de um e-commerce - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-15/index.html))
 
 Dia 16 - Desenvolver um site que utiliza API pública - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-16/index.html))
 
