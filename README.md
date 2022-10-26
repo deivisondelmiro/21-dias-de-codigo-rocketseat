@@ -38,7 +38,7 @@ Dia 14 - Criar um formulário de quizzes - ([Clique aqui](https://deivisondelmir
 
 Dia 15 - Desenvolver uma vitrine de produtos de um e-commerce - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-15/index.html))
 
-Dia 16 - Desenvolver um site que utiliza API pública - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-16/index.html))
+Dia 16 - Desenvolver um site que utiliza API pública - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-16/index.html))
 
 Dia 17 - Desenvolver um site que captura os eventos do teclado e as exibe na tela - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-17/index.html))
 

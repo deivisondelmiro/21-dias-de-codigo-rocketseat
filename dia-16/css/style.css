@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    background: #fa9270cb;
+    cursor: default;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ff551c;
+    margin-bottom: 15px;
+}
+
+main {
+    background: #f7784d;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+main p {
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6430;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(238, 66, 9);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 0 50px;
+}
+
+footer p {
+    font-size: .6rem;
+    font-weight: bold;
+    color: rgba(255, 38, 0, 0.747);
+    letter-spacing: .05rem;
+    padding: 10px;
+}
+
+footer p a {
+    transition: all .3s;
+}
+
+footer p a:hover {
+    color: rgb(255, 38, 0);
+}
