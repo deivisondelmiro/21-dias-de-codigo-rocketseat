@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(248, 248, 248);
+    cursor: default;
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1623212209063-a1295bdb54fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav > a {
+    font-weight: bold;
+    transition: all .3s;
+}
+
+header nav > a:hover {
+    color: rgb(240, 239, 239);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: inherit;
+    gap: 15px;
+}
+
+header nav ul li {
+    transition: all .3s;
+}
+
+header nav ul li:hover {
+    color: white;
+}
+
+header div#card-home {
+    width: 40%;
+    height: calc(100vh - 100px);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 200px;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+header div#card-home p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 15px 0 20px 0;
+}
+
+header div#card-home input {
+    width: 100px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+header div#card-home input:hover {
+    color: white;
+    background: gray;
+}
+
+div#cards-beneficios {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 25px;
+    background: rgb(233, 233, 233);
+}
+
+div#cards-beneficios div.cards-servicos {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border-radius: 8px;
+    background: rgb(243, 243, 243);
+}
+
+div#cards-beneficios div.cards-servicos h3 {
+    font-size: 14px;
+}
+
+div#cards-beneficios div.cards-servicos p {
+    font-size: 12px;
+}
+
+div#cards-beneficios div.cards-servicos > svg{
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2 {
+    margin: 35px 0;
+}
+
+div#cards-produtos {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.card-produto {
+    width: 150px;
+    margin: 15px 15px;
+    position: relative;
+    border-radius: 0 15px 0 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
+    background: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+div.card-produto div.card-promocao {
+    position: absolute;
+    top: 15px;
+    padding: 2px 5px;
+    font-size: 12px;
+    background: orange;
+    box-shadow: 4px 1px 2px rgba(0, 0, 0, 0.37);
+}
+
+div.card-produto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0 15px 0 0;
+}
+
+div.card-produto p {
+    font-size: 12px;
+    padding: 0 0 0 5px
+}
+
+div.card-produto h4 {
+    font-size: 14px;
+    padding: 5px 0 5px 5px;
+}
+
+div.card-produto .buttons button {
+    padding: 5px 10px;
+    border: none;
+}
+
+div.card-produto .buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 5px;
+}
+
+div.card-produto .buttons button.icon-carrinho img {
+    width: 10px;
+    height: 10px;
+}
+
+div.card-produto .buttons button {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: rgb(189, 189, 189);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+div.card-produto .buttons button:hover {
+    background: gray;
+    color: white;
+}
+
+main p#paragrafo-numeros {
+    margin-top: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(231, 231, 231);
+    background: gray;
+}
+
+section .section {
+    margin: 3px;
+}
+
+section .section h4 {
+    color: black;
+}
+
+section .section a {
+    transition: all .3s;
+}
+
+section .section a:hover {
+    color: rgb(15, 15, 15);
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background: gray;
+}
+
+footer p a {
+    transition: all .3s;
+}
+
+footer p a:hover {
+    color: black;
+}
+
+/* @media (max-width: 850px) {
+    div#card-home {
+        height: 200px;
+        width: 80%;
+    }
+
+    div#cards-beneficios {
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    
+    div#cards-beneficios div.cards-servicos{
+        width: 250px;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    div#cards-beneficios div.cards-servicos > svg{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    div#cards-produtos {
+        width: 600px;
+    }
+
+    .card-produto {
+        margin: 15px;
+    }
+} */
+
+@media (max-width: 840px) {
+
+    header {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav > a {
+        color: rgb(226, 226, 226);
+    }
+    
+    header ul {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        justify-content: center;
+        font-size: 12px;
+        color: rgb(226, 226, 226);
+        padding: 15px 0;
+        background: #33346C;
+        z-index: 99;
+        gap: 0;
+    }
+
+    header div#card-home {
+        width: 80%;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -130px;
+        padding: 0;
+    }
+
+    div#cards-produtos {
+        width: 500px;
+    }
+
+    div#cards-beneficios {
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    
+    div#cards-beneficios div.cards-servicos{
+        width: 250px;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    div#cards-beneficios div.cards-servicos > svg{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .card-produto {
+        margin: 15px;
+    }
+
+    footer {
+        height: calc(5vh + 50px);
+    }
+}
