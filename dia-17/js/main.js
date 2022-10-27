@@ -3,8 +3,10 @@ function keyPressFunction(event) {
     const keyPressName = event.key
     const keyPressCode = event.code
 
+    console.log(event)
+
     if (keyPressCode == 'Space') {
-        paragraph.textContent = 'BACKSPACE'
+        paragraph.textContent = 'SPACE'
     } else if (keyPressName.length !== 0) {
         paragraph.innerHTML = keyPressName.toUpperCase()
     }
