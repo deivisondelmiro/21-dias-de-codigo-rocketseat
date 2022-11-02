@@ -42,9 +42,9 @@ Dia 16 - Desenvolver um site que utiliza API pública - ([Clique aqui](https://d
 
 Dia 17 - Desenvolver um site que captura os eventos do teclado e as exibe na tela - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-17/index.html))
 
-Dia 18 - Desenvolver um gerador de senhas aleatórias - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-18/index.html))
+Dia 18 - Desenvolver um gerador de senhas aleatórias - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-18/index.html))
 
-Dia 19 - Desenvolver um site que gere imagens aleatórias utilizando a API do Unsplash - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-19/index.html))
+Dia 19 - Desenvolver um site que gere imagens aleatórias utilizando a API do Unsplash - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-19/index.html))
 
 Dia 20 - Desenvolver um site de Emoji Picker, que ao selecionar um emoji, é copiado para a áreas de transferência - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-20/index.html))
 
