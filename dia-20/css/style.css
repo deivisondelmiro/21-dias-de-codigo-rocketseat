@@ -106,3 +106,9 @@ footer a {
 footer a:hover {
   color:rgba(226, 202, 226, 0.452);
 }
+
+@media (max-width: 420px) {
+  header {
+    font-size: 12px;
+  }
+}
