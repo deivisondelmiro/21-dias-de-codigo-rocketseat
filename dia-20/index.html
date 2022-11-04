@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emojis</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+  <header>
+    <a href="#">Emoji</a>
+    <ul>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Criação</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+  </header>
+  <div id="container">
+    <textarea name="" id="text-area" class="two uk-textarea uk-margin"></textarea>
+    <div id="container-area">
+      <button id="button-copiar">Copiar</button>
+      <button class="second-btn uk-button uk-button-primary">Emojis</button>
+    </div>
+    <p id="confirmacao-copia">...</p>
+</div>
+
+<footer>
+  <p>Feito por <a href="https://github.com/deivisondelmiro" target="_blank">Deivison Delmiro</a>. <a href="https://github.com/woody180/vanilla-javascript-emoji-picker" target="_blank">Emojis</a></p>
+</footer>
+
+
+
+<script src="./emoji/vanillaEmojiPicker.js"></script>
+<script>
+  const textArea = document.querySelector('#text-area')
+  const buttonCopiar = document.querySelector('#button-copiar')
+  const confirmacaoCopia = document.querySelector('#confirmacao-copia')
+
+  buttonCopiar.addEventListener('click', function() {
+    textArea.select();
+    textArea.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(textArea.value)
+    textArea.value = ''
+    confirmacaoCopia.innerText = 'Emoji Copiado ✔️'
+  })
+
+new EmojiPicker({
+    trigger: [
+        {
+            selector: '.first-btn',
+            insertInto: ['.one', '.two'] // '.selector' can be used without array
+        },
+        {
+            selector: '.second-btn',
+            insertInto: '.two'
+        }
+    ],
+    closeButton: true,
+    //specialButtons: green
+});
+
+</script>
+
+  <!-- <div id="container">
+    <ul>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+      <li><button class="emoji"></button></li>
+    </ul>
+  </div> -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

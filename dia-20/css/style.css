@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgba(87, 51, 87, 0.829);
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+  background: rgb(65, 43, 65);
+}
+
+header ul {
+  display: flex;
+  gap: 15px;
+}
+
+header a,
+header ul li {
+  transition: all .3s;
+}
+
+header a:hover,
+header ul li:hover {
+  color:rgba(226, 202, 226, 0.452);
+}
+
+div#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-area {
+  max-width: 230px;
+  max-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: none;
+  background:rgba(226, 202, 226, 0.452);
+}
+
+div#container-area {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  width: 100px;
+  color: white;
+  padding: 9px 9px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(65, 43, 65);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+button:hover {
+  background: rgb(27, 3, 27);
+}
+
+#confirmacao-copia {
+  padding: 15px;
+  color: rgb(53, 2, 53);
+  transition: opacity 2s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+  padding: 5px;
+  background: rgb(65, 43, 65);
+}
+
+footer a {
+  transition: all .3s;
+}
+
+footer a:hover {
+  color:rgba(226, 202, 226, 0.452);
+}
