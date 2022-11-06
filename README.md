@@ -10,7 +10,7 @@ Desafios de cada semana:
 
 Dia 01 - Criar um repositório para listagem dos projetos - ([Clique aqui](https://github.com/deivisondelmiro/21-dias-de-codigo-rocketseat))
 
-Dia 02 - Fazer um Hello Word customizado (com fontes, cores e imagens) - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-02/index.html))
+Dia 02 - Fazer um Hello World customizado (com fontes, cores e imagens) - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-02/index.html))
 
 Dia 03 - Criar um botão animado - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-03/index.html))
 
@@ -24,7 +24,7 @@ Dia 07 - Desenvolver um contador - ([Clique aqui](https://deivisondelmiro.github
 
 Dia 08 - Desenvolva um toggle que altera para tema claro/escuro - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-08/index.html))
 
-Dia 09 - Criar uma animação de loading - Desenvolva um toggle que altera para tema claro/escuro - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-09/index.html))
+Dia 09 - Criar uma animação de loading ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-09/index.html))
 
 Dia 10 - Utilizar a lib Particle.js do JavaScript - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-10/index.html))
 
@@ -46,6 +46,6 @@ Dia 18 - Desenvolver um gerador de senhas aleatórias - ([Clique aqui](https://d
 
 Dia 19 - Desenvolver um site que gere imagens aleatórias utilizando a API do Unsplash - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-19/index.html))
 
-Dia 20 - Desenvolver um site de Emoji Picker, que ao selecionar um emoji, é copiado para a áreas de transferência - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-20/index.html))
+Dia 20 - Desenvolver um site de Emoji Picker, que ao selecionar um emoji, é copiado para a área de transferência - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-20/index.html))
 
-Dia 21 - Desenvolver uma página de um portfólio, e colocar os projetos dos desafios - ([Em breve...](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-21/index.html))
+Dia 21 - Desenvolver uma página de um portfólio, e colocar os projetos dos desafios - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-21/index.html))
