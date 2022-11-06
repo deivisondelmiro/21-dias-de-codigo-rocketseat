@@ -15,6 +15,10 @@ ul {
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -32,6 +36,10 @@ header {
   align-items: center;
   color: #a13b0f;
   padding: 0 150px;
+  position: fixed;
+  background: #a13b0f;
+  box-shadow: 1px 1px 5px #8f330cb9;
+  z-index: 111;
 }
 
 header > h1 a {
@@ -62,8 +70,12 @@ header ul li a:hover {
   color: #3a1100;
 }
 
+.icon-sidebar {
+  display: none;
+}
+
 #container-home {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   padding: 0 250px;
@@ -142,6 +154,7 @@ header ul li a:hover {
 }
 
 #about #sobre-mim {
+  padding-top: 20px;
   width: 48%;
   margin-bottom: 50px;
 }
@@ -164,7 +177,7 @@ header ul li a:hover {
 
 #services h2 {
   text-align: center;
-  margin: 50px 0 50px 0;
+  margin: 70px 0 50px 0;
 }
 
 #services #services-cards {
@@ -239,7 +252,7 @@ header ul li a:hover {
 
 #projects h2 {
   text-align: center;
-  padding: 0 0 50px 0;
+  padding: 25px 0 50px 0;
 }
 
 #projects #cards-projects {
@@ -494,10 +507,11 @@ footer p a:hover {
   }
   
   #container-home .titles {
-    padding: 20px 0 0 0;
+    padding: 70px 0 0 0;
   }
 
   #container-home .profile img {
+    padding-top: 0px;
     width: 200px;
   }
 
@@ -518,42 +532,75 @@ footer p a:hover {
   #sidebar {
     position: fixed;
     left: 10px;
-    top: 20px;
+    top: 15px;
     z-index: 100;
+    cursor: pointer;
+  }
+
+  #container-home .titles {
+    padding: 10px 0 0 0;
+  }
+
+  .icon-sidebar {
+    display: inherit;
   }
 
   .sidebar {
     width: 35px;
     height: 8px;
-    margin: 2px 15px;
-    background: black;
+    margin: 3px 15px;
+    background: #3a1100;
     border-radius: 2px;
-
   }
+
   header {
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
+  }
+
+  header h1 {
+    margin: auto 0;
   }
 
   header ul {
+    display: none;
+  }
+
+  header ul#ul-header.ul-clicked {
+    display: inherit;
     flex-direction: column;
     position: fixed;
+    opacity: 1;
     left: 0px;
     height: 100vh;
-    width: 40vw;
+    width: 45vw;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
     align-items: flex-start;
-    padding: 15px;
+    padding: 20px;
     background: #d16e2c;
     z-index: 99;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.384);
   }
 
+  header ul li {
+    font-size: 25px;
+  }
+
+  header ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header ul li a svg {
+    margin-right: 5px;
+  }
 
   #container-home {
-    padding: 0 50px;
+    padding: 70px 50px;
+    height: 100vh;
   }
 
   #about {
@@ -562,6 +609,10 @@ footer p a:hover {
 }
 
 @media (max-width: 560px) {
+  #container-home {
+    padding: 55px 50px;
+  }
+
   #projects {
     padding: 50px 50px;
     background: #d16e2c;
