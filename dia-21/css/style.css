@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+:target {
+  scroll-margin-top: 2rem;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -32,10 +36,10 @@ header {
   width: 100vw;
   height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   color: #a13b0f;
-  padding: 0 150px;
+  padding: 0 250px;
   position: fixed;
   background: #a13b0f;
   box-shadow: 1px 1px 5px #8f330cb9;
@@ -504,6 +508,7 @@ footer p a:hover {
   #container-home {
     flex-direction: column;
     text-align: center;
+    padding: 50px 50px;
   }
   
   #container-home .titles {
@@ -610,11 +615,43 @@ footer p a:hover {
 
 @media (max-width: 560px) {
   #container-home {
-    padding: 55px 50px;
+    padding: 90px 50px;
   }
 
   #projects {
     padding: 50px 50px;
     background: #d16e2c;
+  }
+}
+
+@media (max-width: 425px) {
+  header ul#ul-header.ul-clicked {
+    width: 55vw;
+  }
+}
+
+@media (max-width: 375px) {
+  header ul#ul-header.ul-clicked {
+    width: 70vw;
+  }
+
+  #about {
+    padding: 0 50px 20px 50px;
+  }
+
+  #services {
+    padding: 0 5px 70px 5px;
+  }
+
+  #projects {
+    padding: 5px 5px;
+  }
+
+  #tech {
+    padding: 50px;
+  }
+
+  #tech h2 {
+    margin: 0 0 50px 0;
   }
 }
