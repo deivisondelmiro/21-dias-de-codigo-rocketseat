@@ -541,7 +541,7 @@ footer p a:hover {
     cursor: pointer;
   }
 
-  .icon-sidebar {
+  header ul#ul-header .icon-sidebar {
     display: inherit;
   }
 
