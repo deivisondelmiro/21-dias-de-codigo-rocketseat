@@ -24,7 +24,6 @@ html {
 }
 
 body {
-  width: 100vw;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -40,9 +39,9 @@ header {
   align-items: center;
   color: #a13b0f;
   padding: 0 250px;
-  position: fixed;
   background: #a13b0f;
   box-shadow: 1px 1px 5px #8f330cb9;
+  position: fixed;
   z-index: 111;
 }
 
@@ -74,13 +73,14 @@ header ul li a:hover {
   color: #3a1100;
 }
 
-.icon-sidebar {
+header ul#ul-header .icon-sidebar {
   display: none;
 }
 
 #container-home {
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 0 250px;
   gap: 50px;
@@ -150,17 +150,13 @@ header ul li a:hover {
 #about {
   padding: 0 150px 20px 150px;
   background: #d16e2c;
-  background-image: url('../assets/undraw_code_review_re_woeb\ \(2\).svg');
-  background-repeat: no-repeat;
-  background-size: 450px;
-  background-position-x: 720px;
-  background-position-y: 150px;
 }
 
 #about #sobre-mim {
-  padding-top: 20px;
-  width: 48%;
+  width: 80%;
   margin-bottom: 50px;
+  padding-top: 20px;
+  text-align: justify;
 }
 
 #about #sobre-mim h2 {
@@ -350,7 +346,6 @@ header ul li a:hover {
 }
 
 #contact {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -368,7 +363,6 @@ header ul li a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   justify-content: space-around;
   padding: 15px;
 }
@@ -413,25 +407,6 @@ footer p a:hover {
 
   #about {
     padding: 0 100px 20px 100px;
-    background-image: none;
-  }
-  
-  #about #sobre-mim {
-    width: 45%;
-  }
-}
-
-@media (max-width: 1190px) {
-  #about {
-    background-position-x: 600px;
-  }
-}
-
-@media (max-width: 1120px) {
-  #about {
-    background-size: 350px;
-    background-position-x: 600px;
-    background-position-y: 200px;
   }
 }
 
@@ -439,40 +414,19 @@ footer p a:hover {
   header {
     padding: 0 100px;
   }
+
   #container-home {
     padding: 0 100px;
-  }
-
-  #about {
-    background-size: 300px;
-    background-position-x: 550px;
-    background-position-y: 250px;
   }
 }
 
 @media (max-width: 950px) {
   #container-home .titles p  {
-    /* font-size: 3rem; */
     letter-spacing: 0;
-    /* line-height: 3rem; */
-  }
-
-  #container-home .titles span {
-    /* font-size: 2rem; */
-    /* line-height: 15px; */
-  }
-
-  #container-home .titles h2 {
-    /* font-size: 20px; */
   }
 
   #container-home .profile img {
     width: 250px;
-  }
-
-  #about {
-    background-position-x: 470px;
-    background-position-y: 250px;
   }
 }
 
@@ -534,30 +488,6 @@ footer p a:hover {
 }
 
 @media (max-width: 675px) {
-  #sidebar {
-    position: fixed;
-    left: 10px;
-    top: 15px;
-    z-index: 100;
-    cursor: pointer;
-  }
-
-  #container-home .titles {
-    padding: 10px 0 0 0;
-  }
-
-  .icon-sidebar {
-    display: inherit;
-  }
-
-  .sidebar {
-    width: 35px;
-    height: 8px;
-    margin: 3px 15px;
-    background: #3a1100;
-    border-radius: 2px;
-  }
-
   header {
     flex-direction: column;
     justify-content: space-between;
@@ -573,16 +503,16 @@ footer p a:hover {
   }
 
   header ul#ul-header.ul-clicked {
+    width: 45vw;
+    height: 100vh;
     display: inherit;
     flex-direction: column;
-    position: fixed;
-    opacity: 1;
-    left: 0px;
-    height: 100vh;
-    width: 45vw;
     justify-content: center;
-    gap: 35px;
     align-items: flex-start;
+    gap: 35px;
+    position: fixed;
+    left: 0px;
+    opacity: 1;
     padding: 20px;
     background: #d16e2c;
     z-index: 99;
@@ -595,12 +525,36 @@ footer p a:hover {
 
   header ul li a {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   
   header ul li a svg {
     margin-right: 5px;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: 24px;
+    left: 40px;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .icon-sidebar {
+    display: inherit;
+  }
+
+  .sidebar {
+    width: 35px;
+    height: 8px;
+    margin: 3px 15px;
+    background: #3a1100;
+    border-radius: 2px;
+  }
+
+  #container-home .titles {
+    padding: 10px 0 0 0;
   }
 
   #container-home {
@@ -621,6 +575,10 @@ footer p a:hover {
   #projects {
     padding: 50px 50px;
     background: #d16e2c;
+  }
+
+  #tech {
+    padding: 50px;
   }
 }
 
