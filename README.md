@@ -2,12 +2,12 @@
 Projeto de 21 dias de código. Com o objetivo de desenvolver uma aplicação a cada dia, totalizando os 21 dias/projetos. Codar pelo menos 1 hora por dia.
 Ideia desenvolvida pela [Rocketseat](https://www.rocketseat.com.br/)
 
-Desafios de cada semana:
+## 🚀 Desafios de cada semana:
 [Primeira semana](https://www.instagram.com/p/ChTBg1BpLGU/?igshid=YmMyMTA2M2Y=),
 [Segunda semana](https://www.instagram.com/p/ChkahuNOLvF/?igshid=YmMyMTA2M2Y=),
 [Terceira semana](https://www.instagram.com/p/Ch3EOQ0p2sZ/?igshid=YmMyMTA2M2Y=)
-#
 
+## 👨‍💻 Desafios por dia:
 Dia 01 - Criar um repositório para listagem dos projetos - ([Clique aqui](https://github.com/deivisondelmiro/21-dias-de-codigo-rocketseat))
 
 Dia 02 - Fazer um Hello World customizado (com fontes, cores e imagens) - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-02/index.html))
@@ -49,3 +49,16 @@ Dia 19 - Desenvolver um site que gere imagens aleatórias utilizando a API do Un
 Dia 20 - Desenvolver um site de Emoji Picker, que ao selecionar um emoji, é copiado para a área de transferência - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-20/index.html))
 
 Dia 21 - Desenvolver uma página de um portfólio, e colocar os projetos dos desafios - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-21/index.html))
+
+order-summar
+
+## 🛠️ Tecnologias Usadas
+
+- HTML
+- CSS
+- JAVASCRIPT
+
+## 📞 Contato
+E-mail: deivisondelmirodasilva@gmail.com
+
+Linkedin: [deivisondelmiro](https://www.linkedin.com/in/deivisondelmiro/)
