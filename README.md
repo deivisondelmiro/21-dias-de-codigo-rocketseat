@@ -50,8 +50,6 @@ Dia 20 - Desenvolver um site de Emoji Picker, que ao selecionar um emoji, é cop
 
 Dia 21 - Desenvolver uma página de um portfólio, e colocar os projetos dos desafios - ([Clique aqui](https://deivisondelmiro.github.io/21-dias-de-codigo-rocketseat/dia-21/index.html))
 
-order-summar
-
 ## 🛠️ Tecnologias Usadas
 
 - HTML
